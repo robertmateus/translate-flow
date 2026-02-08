@@ -81,3 +81,91 @@ button {
   color: #ffffff;
   font-size: 18px;
 }
+/* RESPONSIVO PARA CELULARES */
+@media (max-width: 768px) {
+  .caixa-maior {
+    width: 90%;
+    max-width: 450px;
+    padding: 15px;
+  }
+
+  .input-texto {
+    height: 80px;
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  .idioma {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .controle {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .traducao {
+    font-size: 16px;
+  }
+
+  button {
+    padding: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    height: auto;
+    min-height: 100vh;
+    padding: 10px;
+  }
+
+  .caixa-maior {
+    width: 100%;
+    padding: 12px;
+    border-radius: 15px;
+  }
+
+  .input-texto {
+    height: 70px;
+    font-size: 13px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .idioma {
+    width: 100%;
+    padding: 10px;
+    font-size: 13px;
+  }
+
+  .controle {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+  }
+
+  button img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .resultado {
+    padding: 12px;
+    border-radius: 10px;
+  }
+
+  .titulo-traducao {
+    font-size: 12px;
+  }
+
+  .traducao {
+    font-size: 14px;
+  }
+}
