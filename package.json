@@ -1,0 +1,18 @@
+{
+  "name": "translateflow",
+  "version": "1.0.0",
+  "description": "Translate Flow é uma ferramenta inteligente de tradução que transforma textos de forma rápida, fluida e prática, facilitando a comunicação em diferentes idiomas.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "prettier": "^3.6.2"
+  }
+}
